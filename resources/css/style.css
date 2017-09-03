@@ -3,12 +3,25 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-}
-nav span {
-  display: inline-block;
+  align-items: center;
+
 
 }
+
 .logo {
   display: flex;
   color: MediumAquamarine;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 12px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+a {
+  color: black;
 }
