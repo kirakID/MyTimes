@@ -4,8 +4,7 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  align-items: center;
-  border-botom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .logo {
@@ -28,6 +27,7 @@ a {
   color: black;
 }
 /* main content */
+
 div {
   border: 1px solid black;
 }
@@ -35,12 +35,14 @@ div {
   display: flex;
 }
 
-.large {
+
+
+.column .large {
   width: 630px;
 }
-.medium {
+.column .medium {
   width: 300px;
 }
-.small {
+.column .small {
   width: 240px;
 }
