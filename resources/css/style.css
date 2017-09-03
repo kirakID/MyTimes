@@ -1,11 +1,11 @@
+/* header */
 header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   align-items: center;
-
-
+  border-botom: 1px solid black;
 }
 
 .logo {
@@ -23,6 +23,24 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
+
 a {
   color: black;
+}
+/* main content */
+div {
+  border: 1px solid black;
+}
+.content {
+  display: flex;
+}
+
+.large {
+  width: 630px;
+}
+.medium {
+  width: 300px;
+}
+.small {
+  width: 240px;
 }
