@@ -93,3 +93,25 @@ div {
   display: flex;
   justify-content: space-between;
 }
+
+/*Step 6*/
+.newsbites {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.newsbites h1 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bite {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid  black;
+  padding: 10px 20px;
+}
