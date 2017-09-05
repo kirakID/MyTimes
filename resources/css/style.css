@@ -33,11 +33,13 @@ a {
 /* main content */
 body {
   margin: 0;
+  font-family: Georgia;
 }
 
 .content {
   display: flex;
   padding-top: 90px;
+  margin-left: 50px;
 }
 
 .column.large {
@@ -63,12 +65,12 @@ body {
 
 .main {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
-  font-size: 40px;
   text-align: left;
 }
 
 .main h1 {
   margin: 32px;
+  font-size: 40px;
 }
 
 .earth {
@@ -95,6 +97,11 @@ body {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
+}
+
+.storyheader h1 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .substories {
